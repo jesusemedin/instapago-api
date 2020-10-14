@@ -10,10 +10,49 @@ html
 body{
     background-color: #ec7010;
     font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
 }
 .header{
     text-align: center;
     color: white;
     text-transform: uppercase;
     font-size: 5rem;
+}
+.main-container{
+    width: 80%;
+    height: 70rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+.input-group{
+    padding: 1rem;
+}
+.input-group label{
+    color: #ec7010;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1rem;
+}
+.input-group input{
+    width: 100%;
+    height: 3.5rem;
+    padding: 1rem;
+    color: #ec7010;
+}
+.submit{
+    border-style: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: rgb(69, 153, 69);
+    display: block;
+    margin: 0 auto;
+    color: white;
+}
+.agradecimiento{
+    text-align: center;
+}
+.agradecimiento img {
+    width: 100%;
 }
