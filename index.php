@@ -12,7 +12,7 @@
 <body>
     <h1 class="header">Pasarela de pago</h1>
     <div class="main-container">
-        <form action="">
+        <form action="procesar_pago.php" method="POST">
             <div class="input-group">
                 <label for="numero_tarjeta">No. Tarjeta: </label>
                 <input type="number" name="numero_tarjeta" id="numero_tarjeta" minlength="15" maxlength="16" required>
@@ -28,6 +28,10 @@
             <div class="input-group">
                 <label for="nombre_en_tarjeta">Nombre en la tarjeta: </label>
                 <input type="text" name="nombre_en_tarjeta" id="nombre_en_tarjeta" required>
+            </div>
+            <div class="input-group">
+                <label for="cedula">Cedula: </label>
+                <input type="text" name="cedula" id="cedula" required>
             </div>
             <div class="input-group">
                 <label for="monto_total">Monto: </label>

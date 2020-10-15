@@ -20,7 +20,7 @@ body{
 }
 .main-container{
     width: 80%;
-    height: 70rem;
+    /* height: 75rem; */
     background-color: rgb(255, 255, 255);
     border-radius: 1rem;
     margin: 0 auto;
@@ -55,4 +55,16 @@ body{
 }
 .agradecimiento img {
     width: 100%;
+}
+.final-message{
+    width: 50%;
+    margin: 0 auto;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.green{
+    background-color:  rgb(69, 153, 69);
+}
+.red{
+    background-color:  rgb(153, 69, 69);
 }

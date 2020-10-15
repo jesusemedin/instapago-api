@@ -12,3 +12,8 @@ function checkCardNumber(e){
         console.log(numero_tarjeta.value.length);
     }
 }
+
+document.querySelector('#vencimiento').addEventListener('input', function(){
+    let fecha = document.querySelector('#vencimiento').value;
+    console.log(fecha)
+})
